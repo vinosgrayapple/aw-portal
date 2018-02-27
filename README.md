@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # aw-portal
 
 > Portal AW
