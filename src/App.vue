@@ -28,7 +28,8 @@
                           <div slot="header" class="body-2">
                             
                             <v-avatar>
-                              <img src="/static/doc-images/cards/komarychev.jpg" alt="Komarychev">
+                              <img :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 200) + 1}`">
+                              <!-- <img src="/static/doc-images/cards/komarychev.jpg" alt="Komarychev"> -->
                             </v-avatar>
                             <span class="pl-3">
                               {{ user.fio }}
@@ -39,15 +40,21 @@
                           <v-card>
                           
                             <v-card-text class="ct__pad">
-                              <v-icon>mail</v-icon>
+                              <v-icon color="teal darken-2">mail</v-icon>
                               <span class="ml-3">
                               <a href="'mailto:'+ user.email"> {{ user.email }} </a>
                               </span>  
                             </v-card-text>
-                            <v-card-text class="ct__pad">
-                              <v-icon>phone</v-icon>
+                            <v-card-text class="ct__pad" v-for="(mobilef,i) in user.phone.mobile" :key="i">
+                              <v-icon color="purple darken-2">phone</v-icon>
                               <span class="ml-3">
-                              (067) 625-18-58
+                              {{ mobilef }}
+                              </span>  
+                            </v-card-text>
+                            <v-card-text class="ct__pad" v-for="(innerf,i) in user.phone.inner" :key="i">
+                              <v-icon color="red darken-2">local phone</v-icon>
+                              <span class="ml-3">
+                              {{ innerf }}
                               </span>  
                             </v-card-text>
                           </v-card>
@@ -55,6 +62,7 @@
                       </v-expansion-panel>
                     </v-flex>
                     <!-- <v-flex xs12 lg5 offset-lg2>
+                      mdi-phone-classic
                       <v-expansion-panel inset>
                         <v-expansion-panel-content v-for="(item,i) in 5" :key="i">
                           <div slot="header">Item</div>
