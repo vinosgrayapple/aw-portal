@@ -1,14 +1,8 @@
 // Web scrapping in Node
 const rp = require('request-promise');
 const cheerio = require('cheerio');
-const Table = require('cli-table');
 let users = [];
 const fs = require('fs');
-
-let table = new Table({
-	head: ['TH-1', 'TH-2', 'TH-3', 'TH-4', 'TH-5'],
-	colWidths: [50, 50, 50, 50, 10]
-});
 
 const options = {
 	url: 'https://aw.krimsekt.ua/apps/test1/email/index.htm',
@@ -16,11 +10,12 @@ const options = {
 };
 rp(options)
 	.then(data => {
+		// console.log(data);
 		const $ = cheerio.load(data);
 		let unit, department, fio, email;
 		$('tr').each(function() {
 			const arrTd = $(this).find('td').length;
-			if (arrTd == 1) {
+			if (arrTd === 1) {
 				unit = $(this).find('td').text().replace(/\n/g, '').replace(/\s{2}/g, ' ').trim();
 				department = '';
 				return;
@@ -40,25 +35,17 @@ rp(options)
 				fio = $(this).find('td').eq(1).text().trim();
 				email = $(this).find('td').eq(2).text().trim();
 			}
-			// let arr = $(this)
-			// 	.find('td')
-			// 	.map(function() {
-			// 		return $(this).text();
-			// 	})
-			// 	.get();
-			// console.log(
-			// 	`\nFIO: ${fio || ''} \n email: ${email || ''} \n dep: ${department || ''} \n unit : ${unit || ''}`
-			// );
 			users.push({
-				fio: fio || '',
-				email: email || '',
+				// fio: fio,
+				first__name: fio.split(' ')[1] || '',
+				last__name: fio.split(' ')[0] || '',
+				email: [email] || '',
 				department: department || '',
 				unit: unit || '',
 				position: '',
 				phone: {
 					inner: [],
 					city: [],
-
 					mobile: []
 				}
 			});
@@ -66,9 +53,6 @@ rp(options)
 		return users;
 	})
 	.then(users => {
-		// table.push(users);
-		// console.log(users.toString());
-
 		fs.writeFile('users.json', JSON.stringify(users), function(error) {
 			if (error) throw error; // если возникла ошибка
 		});
