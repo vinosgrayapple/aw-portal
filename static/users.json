@@ -1,0 +1,1574 @@
+[
+  {
+    "fio": "??",
+    "email": "vinceh@artwinery.com.ua",
+    "department": "Виноматериальный цех",
+    "unit": "Производственные подразделения",
+    "position": "начальник",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "??",
+    "email": "liker@artwinery.com.ua",
+    "department": "Ликерный цех",
+    "unit": "Производственные подразделения",
+    "position": "начальник",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "tir@artwinery.com.ua",
+    "department": "Тиражный цех",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "p.tir@artwinery.com.ua",
+    "department": "Цех послетиражной выдержки",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "r.otdelka@artwinery.com.ua",
+    "department": "Цех рядовой отделки",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "e.otdelka@artwinery.com.ua",
+    "department": "Цех эксп.отделки",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "i.kholoimova@artwinery.com.ua",
+    "department": "Цех игристых вин",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "технолог",
+    "email": "civ@artwinery.com.ua",
+    "department": "Цех игристых вин",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "shamp@artwinery.com.ua",
+    "department": "Цех шампанизации",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "учетчик",
+    "email": "rchamp@artwinery.com.ua",
+    "department": "Цех шампанизации",
+    "unit": "Производственные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "msklad@artwinery.com.ua",
+    "department": "Материальный склад",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "",
+    "email": "medpunkt@artwinery.com.ua",
+    "department": "Медпункт",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "mehceh@artwinery.com.ua",
+    "department": "Механическое отделение",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "mic-control@artwinery.com.ua",
+    "department": "Микробиология",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "automatic@artwinery.com.ua",
+    "department": "Отдел автоматизации",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "otk@artwinery.com.ua",
+    "department": "Отдел технического контроля",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "laboratory@artwinery.com.ua",
+    "department": "Лаборатория",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "метролог",
+    "email": "metrolog@artwinery.com.ua",
+    "department": "Лаборатория",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "инженер по качеству",
+    "email": "ng@artwinery.com.ua",
+    "department": "Лаборатория",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Ермаков Д.",
+    "email": "d.yermakov@artwinery.com.ua",
+    "department": "ОМТСиТЛ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Девинский А.",
+    "email": "a.devinskiy@artwinery.com.ua",
+    "department": "ОМТСиТЛ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Лычак А.",
+    "email": "a.lychak@artwinery.com.ua",
+    "department": "ОМТСиТЛ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Хирьянов А.",
+    "email": "a.khiryanov@artwinery.com.ua",
+    "department": "ОМТСиТЛ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Ковалева Н.",
+    "email": "n.kovaleva@artwinery.com.ua",
+    "department": "ОМТСиТЛ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "тарное отделение",
+    "email": "tarniy@artwinery.com.ua",
+    "department": "Тарно-транспортное управление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "зарядное отделение",
+    "email": "tzaryad@artwinery.com.ua",
+    "department": "Тарно-транспортное управление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "транспортное отделение",
+    "email": "transport@artwinery.com.ua",
+    "department": "Тарно-транспортное управление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Ткаченко И.(учетчик)",
+    "email": "i.tkachenko@artwinery.com.ua",
+    "department": "Тарно-транспортное управление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Логвинюк В.",
+    "email": "v.logvinyuk@artwinery.com.ua",
+    "department": "Энергоупровление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "котельная",
+    "email": "boiler@artwinery.com.ua",
+    "department": "Энергоупровление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "холодильное",
+    "email": "holod@artwinery.com.ua",
+    "department": "Энергоупровление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "электроцех",
+    "email": "power@artwinery.com.ua",
+    "department": "Энергоупровление",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Осипов А.",
+    "email": "a.osipov@artwinery.com.ua",
+    "department": "отдел ИТ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Муравлев А.",
+    "email": "amuravlev@artwinery.com.ua",
+    "department": "отдел ИТ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Очкур А.",
+    "email": "aochkur@artwinery.com.ua",
+    "department": "отдел ИТ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Гребенюк А.",
+    "email": "a.grebenyuk@artwinery.com.ua",
+    "department": "отдел ИТ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Морозинский И.",
+    "email": "i.morozinskiy@artwinery.com.ua",
+    "department": "отдел ИТ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Павленко А.",
+    "email": "a.pavlenko@artwinery.com.ua",
+    "department": "отдел ИТ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "инженер связи",
+    "email": "tel@artwinery.com.ua",
+    "department": "отдел ИТ",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Сикула А.",
+    "email": "a.sikula@artwinery.com.ua",
+    "department": "ремонтно-строительный участок",
+    "unit": "Вспомогательные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Толкачев И.",
+    "email": "igor.tolkachov@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Качур О.",
+    "email": "o.kachur@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Пересада Е.",
+    "email": "e.peresada@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Приёмная",
+    "email": "info@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Малёваная В.",
+    "email": "v.malovana@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Поваляева Л.",
+    "email": "l.povalyaeva@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Стовбурь Н.",
+    "email": "n.stovbur@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Корсиков А.",
+    "email": "a.korsikov@artwinery.com.ua",
+    "department": "",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Разинкова Л.",
+    "email": "l.razinkova@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Бублиенко В.",
+    "email": "v.bublienko@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Зинченко В.",
+    "email": "v.zinchenko@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Баринова Е.",
+    "email": "e.barinova@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Гулянова Л.",
+    "email": "l.gulyanova@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "касca",
+    "email": "kassa.acc@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Иванова О.",
+    "email": "o.ivanova@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Богомолова О.",
+    "email": "o.bogomolova@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Мустафеева О.",
+    "email": "o.mustafeeva@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Щербина А.",
+    "email": "a.shcherbina@artwinery.com.ua",
+    "department": "Бухгалтерия",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Волкова Э.",
+    "email": "e.volkova@artwinery.com.ua",
+    "department": "ОИСМ",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "специалист",
+    "email": "yana.vihaniailo@artwinery.com.ua",
+    "department": "ОИСМ",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Грицина Н.",
+    "email": "n.gritsina@artwinery.com.ua",
+    "department": "Отдел кадров",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Нечаева Ю.",
+    "email": "yuliya.nechaeva@artwinery.com.ua",
+    "department": "Отдел кадров",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Иванова Е.",
+    "email": "e.ivanova@artwinery.com.ua",
+    "department": "Планово-экономический отдел",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Скапенко Е.",
+    "email": "e.skapenko@artwinery.com.ua",
+    "department": "Планово-экономический отдел",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Горбатенко Л.",
+    "email": "l.gorbatenko@artwinery.com.ua",
+    "department": "Планово-экономический отдел",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Иванов А.",
+    "email": "a.ivanov@artwinery.com.ua",
+    "department": "Планово-экономический отдел",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Малюта А.",
+    "email": "a.maluta@artwinery.com.ua",
+    "department": "Специалисты",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Украинская А.",
+    "email": "n.ukrainska@artwinery.com.ua",
+    "department": "Специалисты",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Моисеева О.",
+    "email": "o.moiseeva@artwinery.com.ua",
+    "department": "Специалисты",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Волкова Т.",
+    "email": "t.volkova@artwinery.com.ua",
+    "department": "Специалисты",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Разинков П.",
+    "email": "p.razinkov@artwinery.com.ua",
+    "department": "Специалисты",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Сабаев А.",
+    "email": "ecolog@artwinery.com.ua",
+    "department": "Специалисты",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Комаричева Ю",
+    "email": "j.komaricheva@artwinery.com.ua",
+    "department": "Специалисты",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Рыбалка Л.",
+    "email": "l.rybalka@artwinery.com.ua",
+    "department": "Юротдел",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Калиниченко Н.",
+    "email": "n.kalinichenko@artwinery.com.ua",
+    "department": "Юротдел",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Кривуля Ю.",
+    "email": "y.krivulya@artwinery.com.ua",
+    "department": "Юротдел",
+    "unit": "Административные подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Изварин А.",
+    "email": "a.izvarin@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Шевчук О.",
+    "email": "oleg.shevchuk@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Поляковская  Г.",
+    "email": "g.polyakovskaya@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Маевский В.",
+    "email": "v.maevskiy@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Домбровский В.",
+    "email": "v.dombrovskiy@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Черченко А.",
+    "email": "a.cherchenko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Корниенко Р.",
+    "email": "r.korniienko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Войтович Н.",
+    "email": "n.voytovich@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Котик Т.",
+    "email": "t.kotik@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Соловей А.",
+    "email": "a.solovey@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Зеленько И.",
+    "email": "i.zelenko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Предеина О.",
+    "email": "o.predeina@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Пилипенко Д.",
+    "email": "d.pilipenko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Андриенко Н.",
+    "email": "n.andrienko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Черноватый Я.",
+    "email": "j.chernovatyj@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Золотых-Иоаниди Д.",
+    "email": "d.zolotyh-ioanidi@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Доценко А.",
+    "email": "a.docenko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Чабанова Т.",
+    "email": "t.chabanova@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Комаричев С.",
+    "email": "komarichev@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Панченко О.",
+    "email": "o.panchenko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Борисенко Н.",
+    "email": "n.borisenko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Богоявленская Н.",
+    "email": "n.bogoyavlenskaya@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Левковский П.",
+    "email": "p.levkovskiy@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Нагула А.",
+    "email": "a.nagula@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Ведмеденко В.",
+    "email": "v.vedmedenko@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Паращук Н.",
+    "email": "n.paraschuk@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Козак М.",
+    "email": "m.kozak@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Маслийчук С.",
+    "email": "s.masliichuk@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Баранова О.",
+    "email": "o.baranova@artwinery.com.ua",
+    "department": "Департамент продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Прокопчук И.",
+    "email": "i.prokopchuk@artwinery.com.ua",
+    "department": "Отдел экспортных продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Бруслик А.",
+    "email": "a.bruslik@artwinery.com.ua",
+    "department": "Отдел экспортных продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Коваленко А.",
+    "email": "a.kovalenko@artwinery.com.ua",
+    "department": "Отдел экспортных продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Пичахчи Н.",
+    "email": "n.lysenko@artwinery.com.ua",
+    "department": "Отдел экспортных продаж",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "oto@artwinery.com.ua",
+    "department": "Отдел таможенного оформления",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Малеваный Б.",
+    "email": "b.malovanyy@artwinery.com.ua",
+    "department": "Отдел таможенного оформления",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Рыбалка А.",
+    "email": "a.rybalka@artwinery.com.ua",
+    "department": "Отдел таможенного оформления",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Стадник Е.",
+    "email": "y.stadnyk@artwinery.com.ua",
+    "department": "Отдел трейдмаркетинга",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Талалай Е.",
+    "email": "e.talalay@artwinery.com.ua",
+    "department": "Отдел трейдмаркетинга",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Водолазкина Ю.",
+    "email": "j.vodolazkina@artwinery.com.ua",
+    "department": "Отдел трейдмаркетинга",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Киселева Н.",
+    "email": "n.kiseliova@artwinery.com.ua",
+    "department": "Отдел трейдмаркетинга",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Терновая О.",
+    "email": "o.ternovaya@artwinery.com.ua",
+    "department": "Отдел трейдмаркетинга",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Гриб В.",
+    "email": "v.grib@artwinery.com.ua",
+    "department": "Отдел трейдмаркетинга",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "",
+    "email": "pressinfo@artwinery.com.ua",
+    "department": "Отдел трейдмаркетинга",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "sgp@artwinery.com.ua",
+    "department": "СГП",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "учетчик",
+    "email": "sgp2@artwinery.com.ua",
+    "department": "СГП",
+    "unit": "Сбытовые подразделения",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "",
+    "email": "bufet@artwinery.com.ua",
+    "department": "Буфет",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "",
+    "email": "ohrana@artwinery.com.ua",
+    "department": "охрана",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "",
+    "email": "hoz.group@artwinery.com.ua",
+    "department": "Хозгруппа",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "начальник",
+    "email": "y.korolev@artwinery.com.ua",
+    "department": "Экскурсионный отдел",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "",
+    "email": "excursion@artwinery.com.ua",
+    "department": "Экскурсионный отдел",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Морозюк О.",
+    "email": "o.morozyuk@artwinery.com.ua",
+    "department": "Филиал г.Киев",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Канивец А.",
+    "email": "a.kanivets@artwinery.com.ua",
+    "department": "",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "Жукова О.",
+    "email": "o.zhukova@artwinery.com.ua",
+    "department": "Охрана труда",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "",
+    "email": "ecolog@artwinery.com.ua",
+    "department": "Эколог",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  },
+  {
+    "fio": "заведующий",
+    "email": "magazin.ft@artwinery.com.ua",
+    "department": "Магазин фирменной торговли",
+    "unit": "Прочие",
+    "position": "",
+    "phone": {
+      "inner": [],
+      "city": [],
+      "mobile": []
+    }
+  }
+]
