@@ -10,7 +10,7 @@ module.exports = {
 		browser: true
 	},
 	// https://github.com/standard/standard/blob/master/docs/RULES-en.md
-	extends: ['plugin:vue/base'],
+	extends: ['plugin:vue/essential'],
 	// required to lint *.vue files
 	plugins: ['vue'],
 	// add your custom rules here

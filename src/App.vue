@@ -1,4 +1,4 @@
- /* eslint-disable */
+ /*eslint-disable*/
 <template>
   <v-app>
 
@@ -9,7 +9,7 @@
             <v-toolbar-title>AW</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-flex xs12 sm6>
-              <v-text-field solo-inverted label="" clearable append-icon="search" v-model="first"  @blur="userClear"  @keyup="userSearch($event)"></v-text-field>
+              <v-text-field solo-inverted label="" clearable append-icon="search" v-model="first"  v-on:blur="userClear"  v-on:keyup="userSearch($event)"></v-text-field>
             </v-flex>
             <v-spacer></v-spacer>
           </v-toolbar>
@@ -21,7 +21,7 @@
                   <v-layout row wrap>
                     <v-flex xs12 lg12 mb-3>
                       <v-expansion-panel popout>
-                        <v-expansion-panel-content v-for="(user,i) in users" :key="i">
+                        <v-expansion-panel-content v-for="(user) in users" v-bind:key="user.id">
                           <div slot="header" class="body-2">
 
                             <v-avatar>
@@ -105,34 +105,34 @@
 </template>
 
 <script>
-  import users from '../static/users.json'
-  export default {
-    data() {
-      return {
-        users,
-        first:''
-      }
+import users from '../static/users.json'
+export default {
+  data() {
+    return {
+      users,
+      first: ''
+    }
+  },
+  name: 'App',
+  first: '',
+  methods: {
+    userSearch(e) {
+      const searchWord = e.target.value.toLowerCase()
+      this.users = users.filter(
+        user =>
+          user.last__name.toLowerCase().includes(searchWord) ||
+          user.first__name.toLowerCase().includes(searchWord) ||
+          user.department.toLowerCase().includes(searchWord) ||
+          user.unit.toLowerCase().includes(searchWord) ||
+          user.position.toLowerCase().includes(searchWord)
+      )
     },
-    name: 'App',
-    first: '',
-    methods: {
-      userSearch(e){
-        const searchWord = e.target.value.toLowerCase()
-        this.users = users.filter(user =>  user.last__name.toLowerCase().includes(searchWord) ||
-                     user.first__name.toLowerCase().includes(searchWord) ||
-                     user.department.toLowerCase().includes(searchWord) ||
-                     user.unit.toLowerCase().includes(searchWord) ||
-                     user.position.toLowerCase().includes(searchWord)
-        )
-      },
-      userClear() {
-        this.users=users
-      }
+    userClear() {
+      this.users = users
     }
   }
-
+}
 </script>
 <style lang="stylus">
-  @import './stylus/main';
-
+@import './stylus/main';
 </style>
