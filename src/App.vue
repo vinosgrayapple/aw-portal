@@ -1,6 +1,5 @@
 <template>
   <v-app>
-
     <main>
       <v-layout column>
         <v-flex xs12 sm6 offset-sm3>
@@ -8,7 +7,14 @@
             <v-toolbar-title>AW</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-flex xs12 sm6>
-              <v-text-field solo-inverted label="" clearable append-icon="search" v-model="first" v-on:blur="userClear"></v-text-field>
+            <v-text-field
+              solo-inverted label=""
+              clearable
+              :append-icon-cb="userClear"
+              append-icon="search"
+               v-model="first"
+               @keyup="userSearch">
+            </v-text-field>
             </v-flex>
             <v-spacer></v-spacer>
           </v-toolbar>
@@ -23,8 +29,7 @@
                         <v-expansion-panel-content v-for="user in users" :key="user.id">
                           <div slot="header" class="body-2">
                             <v-avatar>
-                              <img :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 50) + 1}`">
-                              <!-- <img src="/static/doc-images/cards/komarychev.jpg" alt="Komarychev"> -->
+                              <img :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 50) + 1}`" />
                             </v-avatar>
                             <span class="pl-3 title">
                               {{ user.first__name }}&nbsp;{{ user.last__name }}
@@ -46,7 +51,7 @@
                                         <v-icon></v-icon>
                                       </v-list-tile-action>
                                     </v-list-tile>
-                                    <v-list-tile @click="emptyMethod" v-for="(mobilef, index) in user.phone.mobile" :key="index">
+                                    <v-list-tile @click="emptyMethod" v-for="(mobilef, index) in user.phone.mobile" :key="index+Math.random()">
                                       <v-list-tile-action>
                                         <v-icon color="orange darken-4">phone</v-icon>
                                       </v-list-tile-action>
@@ -55,8 +60,7 @@
                                         <v-list-tile-sub-title>Мобильный</v-list-tile-sub-title>
                                       </v-list-tile-content>
                                     </v-list-tile>
-
-                                    <v-list-tile @click="emptyMethod" v-for="(innerf, index) in user.phone.inner" :key="index">
+                                    <v-list-tile @click="emptyMethod" v-for="(innerf, index) in user.phone.inner" :key="index+Math.random()">
                                       <v-list-tile-action>
                                         <v-icon color="green darken-1">phone_in_talk</v-icon>
                                       </v-list-tile-action>
@@ -69,7 +73,7 @@
                                       </v-list-tile-action>
                                     </v-list-tile>
                                     <v-divider inset></v-divider>
-                                    <v-list-tile @click="emptyMethod" v-for="(email, index) in user.email" :key="index">
+                                    <v-list-tile @click="emptyMethod" v-for="(email, index) in user.email" :key="index+Math.random()">
                                       <v-list-tile-action>
                                         <v-icon color="teal darken-1">mail</v-icon>
                                       </v-list-tile-action>
@@ -98,40 +102,49 @@
 </template>
 
 <script>
-  import users from '../static/users.json'
-  export default {
-    data() {
-      return {
-        users,
-        first: ''
-      }
-    },
-    name: 'App',
-    methods: {
-      userSearch(e) {
-        const searchWord = e.target.value.toLowerCase()
-        this.users = users.filter(
-          user =>
+import users from '../static/users.json'
+export default {
+  data() {
+    return {
+      users,
+      first: ''
+    }
+  },
+  name: 'App',
+  methods: {
+    userSearch(e) {
+      const searchWord = e.target.value.toLowerCase()
+      this.users = users.filter(
+        user =>
           user.last__name.toLowerCase().includes(searchWord) ||
           user.first__name.toLowerCase().includes(searchWord) ||
           user.department.toLowerCase().includes(searchWord) ||
           user.unit.toLowerCase().includes(searchWord) ||
-          user.position.toLowerCase().includes(searchWord)
-        )
-      },
-      userClear() {
+          user.position.toLowerCase().includes(searchWord) ||
+          user.email
+            .toString()
+            .toLowerCase()
+            .includes(searchWord) ||
+          Object.values(user.phone)
+            .toString()
+            .includes(searchWord)
+      )
+    },
+    userClear() {
+      this.users = users
+    },
+    emptyMethod() {
+      console.log('click!!!')
+    }
+  },
+  watch: {
+    first(val) {
+      if (val === '') {
         this.users = users
-      },
-      emptyMethod() {
-        console.log('------------------------------------');
-        console.log('click!!!');
-        console.log('------------------------------------');
       }
     }
   }
-
+}
 </script>
-<style lang="stylus">
-  @import './stylus/main';
-
+<style>
 </style>

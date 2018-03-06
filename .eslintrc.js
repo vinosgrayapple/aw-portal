@@ -2,15 +2,16 @@
 
 module.exports = {
 	root: true,
-	parser: 'babel-eslint',
+	parser: 'vue-eslint-parser',
 	parserOptions: {
-		sourceType: 'module'
+		sourceType: 'module',
+		parser: 'babel-eslint'
 	},
 	env: {
 		browser: true
 	},
 	// https://github.com/standard/standard/blob/master/docs/RULES-en.md
-	extends: ['plugin:vue/recommended'],
+	extends: ['prettier', 'plugin:vue/essential'],
 	// required to lint *.vue files
 	plugins: ['vue', 'prettier'],
 	// add your custom rules here
@@ -20,6 +21,12 @@ module.exports = {
 		'generator-star-spacing': 'off',
 		// allow debugger during development
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-		'prettier/prettier': 'error'
+		'prettier/prettier': [
+			'error',
+			{
+				singleQuote: true,
+				semi: false
+			}
+		]
 	}
-};
+}
