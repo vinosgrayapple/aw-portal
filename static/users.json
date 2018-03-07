@@ -10,7 +10,8 @@
     "inner": [],
     "city": [],
     "mobile": []
-  }
+  },
+  "img": ""
 }, {
   "id": "1274bc65-db09-4bd2-9bc5-1368af95772d",
   "first__name": "",
@@ -1227,12 +1228,13 @@
   "email": ["komarichev@artwinery.com.ua"],
   "department": "Департамент продаж",
   "unit": "Сбытовые подразделения",
-  "position": "",
+  "position": "Аналитик товарного рынка",
   "phone": {
     "inner": ["633"],
     "city": [],
     "mobile": ["0676251858"]
-  }
+  },
+  "img": "static/doc-images/cards/komarychev.jpg"
 }, {
   "id": "40c85db5-9915-49fa-a355-96ff6f331e4c",
   "first__name": "О.",

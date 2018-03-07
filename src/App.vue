@@ -7,33 +7,27 @@
             <v-toolbar-title>AW</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-flex xs12 sm6>
-            <v-text-field
-              solo-inverted label=""
-              clearable
-              :append-icon-cb="userClear"
-              append-icon="search"
-               v-model="first"
-               @keyup="userSearch">
-            </v-text-field>
+              <v-text-field solo-inverted label="" clearable append-icon="search" v-model="first" @keyup="userSearch">
+              </v-text-field>
             </v-flex>
-            <v-spacer></v-spacer>
+            <v-spacer/>
           </v-toolbar>
           <v-card>
             <v-container fluid grid-list-md>
               <v-layout row wrap>
-
                 <v-container>
                   <v-layout row wrap>
                     <v-flex xs12 lg12 mb-3>
                       <v-expansion-panel popout>
                         <v-expansion-panel-content v-for="user in users" :key="user.id">
                           <div slot="header" class="body-2">
-                            <v-avatar>
-                              <img :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 50) + 1}`" />
+                            <v-avatar v-if="!(user.img === undefined || user.img === '')">
+                              <img :src="user.img" />
                             </v-avatar>
+                            <v-icon x-large dark v-else>account_circle</v-icon>
                             <span class="pl-3 title">
-                              {{ user.first__name }}&nbsp;{{ user.last__name }}
-                            </span>
+                                  {{ user.first__name }}&nbsp;{{ user.last__name }}
+                                </span>
                           </div>
                           <v-card>
                             <v-layout row dark>
@@ -139,12 +133,13 @@ export default {
   },
   watch: {
     first(val) {
-      if (val === '') {
+      if (val === null) {
         this.users = users
       }
     }
   }
 }
 </script>
+
 <style>
 </style>

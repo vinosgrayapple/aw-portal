@@ -1,0 +1,20 @@
+<div class="input-group input-group--dirty input-group--append-icon input-group--solo input-group--solo-inverted input-group--text-field input-group--single-line primary--text">
+  <div class="input-group__input">
+    <input tabindex="0" aria-label="" type="text">
+    <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb input-group__icon-clearable">clear</i>
+  </div>
+  <div class="input-group__details">
+    <!---->
+  </div>
+</div>
+
+
+<div class="input-group input-group--append-icon input-group--solo input-group--solo-inverted input-group--text-field input-group--single-line primary--text">
+  <div class="input-group__input">
+    <input tabindex="0" aria-label="" type="text">
+    <i aria-hidden="true" class="icon material-icons input-group__append-icon input-group__icon-cb">search</i>
+  </div>
+  <div class="input-group__details">
+    <!---->
+  </div>
+</div>
