@@ -3,7 +3,7 @@
     <main>
       <v-layout column>
         <v-flex xs12 sm6 offset-sm3>
-          <v-toolbar color="indigo" dark>
+          <v-toolbar color="primary" dark>
             <v-toolbar-title>AW</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-flex xs12 sm6>
@@ -80,17 +80,90 @@
                                 </v-card>
                               </v-flex>
                             </v-layout>
+                            <v-card-actions>
+                              <v-spacer></v-spacer>
+                              <v-btn slot="activator" flat color="blue-grey darken-3" v-for="link in links" @click="dialog=true"
+                              :key="link">
+                              <v-icon>{{ link }}</v-icon>
+                              </v-btn>
+                          </v-card-actions>
                           </v-card>
                         </v-expansion-panel-content>
                       </v-expansion-panel>
                     </v-flex>
                   </v-layout>
+                 <v-alert outline color="error" icon="info"
+                  :value="!users.length"
+                  transition="scale-transition"
+                 >
+                 Измените запрос!
+                </v-alert>
                 </v-container>
               </v-layout>
             </v-container>
           </v-card>
         </v-flex>
       </v-layout>
+
+ <v-dialog
+        v-model="dialog"
+        fullscreen
+        transition="dialog-bottom-transition"
+        :overlay="false"
+        scrollable
+      >
+        <v-card tile>
+          <v-toolbar card dark color="primary">
+
+            <v-toolbar-title>Карточка</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-toolbar-items>
+              <!-- <v-btn dark flat @click.native="dialog = false">Сохранить</v-btn> -->
+            <v-btn icon @click.native="dialog = false" dark>
+              <v-icon>close</v-icon>
+            </v-btn>
+            </v-toolbar-items>
+          </v-toolbar>
+          <v-flex xs12 sm6 offset-sm3>
+          <v-card-text>
+             <v-form v-model="valid" ref="form" lazy-validation>
+    <v-text-field
+      label="Имя"
+      v-model="name"
+      :rules="nameRules"
+      :counter="10"
+      required
+    ></v-text-field>
+    <v-text-field
+      label="E-mail"
+      v-model="email"
+      :rules="emailRules"
+      required
+    ></v-text-field>
+    <v-select
+      label="Item"
+      v-model="select"
+      :items="items"
+      :rules="[v => !!v || 'Item is required']"
+      required
+    ></v-select>
+
+
+    <v-btn
+      @click="dialog=false"
+      :disabled="!valid"
+    >
+сохранить
+    </v-btn>
+
+  </v-form>
+          </v-card-text>
+          </v-flex>
+        </v-card>
+      </v-dialog>
+
+
+
     </main>
   </v-app>
 </template>
@@ -101,7 +174,10 @@ export default {
   data() {
     return {
       users,
-      first: ''
+      first: '',
+      links: ['edit'],
+      dialog: false,
+      valid: true
     }
   },
   name: 'App',
@@ -129,6 +205,9 @@ export default {
     },
     emptyMethod() {
       console.log('click!!!')
+    },
+    editItem() {
+      console.log()
     }
   },
   watch: {
